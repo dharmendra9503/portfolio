@@ -1,0 +1,180 @@
+.education__section {
+    padding: calc(var(--header-height) + 2.7rem) 0 0;
+}
+
+.education__tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--mb-2);
+    font-size: var(--h3-font-size);
+    column-gap: 0.3rem;
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+}
+
+.education__icon {
+    font-size: 1.5rem;
+}
+
+.education__part {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+.education__data {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.education__subdata{
+    display: flex;
+    flex-direction: column;
+}
+
+.education__title-flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.education__button{
+    display: flex;
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    align-items: center;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    column-gap: 0.25rem;
+}
+
+.education__button-flex{
+    justify-content: flex-end;
+}
+
+.education__button-icon{
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.education__button:hover .education__button-icon{
+    transform: translateX(0.25rem);
+}
+
+.education__modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: var(--z-modal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.education__modal-content{
+    width: 500px;
+    position: relative;
+    background-color: var(--container-color);
+    padding: 4.5rem 2.5rem 2.5rem;
+    border-radius: 1.5rem;
+}
+
+.education__modal-close{
+    position: absolute;
+    top: 1.3rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+}
+
+.education__modal-title{
+    text-align: center;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1-25);
+}
+
+.education__title {
+    font-size: var(--h3-font-size);
+    font-weight: 900;
+}
+
+.education__modal-description{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.7rem;
+}
+
+.education__subtitle {
+    display: flex;
+    column-gap: 0.5rem;
+
+}
+
+.education__grade{
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.education__calender{
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.download{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* .education__grade,
+.education__calender {
+    font-size: var(--small-font-size);
+} */
+
+/* .education-flex {
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.education__rounder {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+}
+
+.education__line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--text-color);
+    transform: translate(6px, -7px);
+}
+
+
+/* Active Modal */
+.active-modal{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ======================== BREAKPOINTS ======================== */
+@media screen and (max-width: 670px) {
+
+}
+
+@media screen and (max-width: 480px) {
+    
+}

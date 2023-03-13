@@ -1,0 +1,67 @@
+.about__section{
+    padding: calc(var(--header-height) + 2.7rem) 0 0;
+}
+
+.about__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 2rem;
+    /* padding-top: 1.5rem; */
+}
+
+.section__title{
+    margin-bottom: 2rem;
+}
+
+.about__img {
+    width: 350px;
+    border-radius: 1.5rem;
+    justify-self: center;
+}
+
+.about__description {
+    padding: 0 1rem 0 0;
+    margin-bottom: var(--mb-2-5);
+}
+
+
+
+/*========================= BREAKPOINTS =========================*/
+@media screen and (max-width: 846px) {
+    .about__img{
+        width: 300px;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    /* .about__description {
+        padding: 0 2rem 0 0;
+    } */
+}
+
+
+@media screen and (max-width:576px){
+    .about__container{
+        grid-template-columns: 1fr;
+        row-gap: 2.5rem;
+    }
+
+    .about__img{
+        width: 220px;
+    }
+
+    .about__data{
+        text-align: center;
+    }
+
+    .about__description {
+        padding: 0;
+    }
+
+    .section {
+        padding: 2rem 0 2rem;
+    }
+}
+/* For small devices */
+@media screen and (max-width: 350px) {}
