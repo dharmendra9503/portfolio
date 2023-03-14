@@ -69,19 +69,19 @@ const Contact = () => {
                         <div className="contact__form-div">
                             <label htmlFor="name" className="contact__form-tag">Name</label>
 
-                            <input type="text" name="name" id="name" className='contact__form-input' placeholder='Write Your Name' />
+                            <input type="text" name="name" id="name" className='contact__form-input' placeholder='Write Your Name' required/>
                         </div>
 
                         <div className="contact__form-div">
                             <label htmlFor="email" className="contact__form-tag">Mail</label>
 
-                            <input type="email" name="email" id="email" className='contact__form-input' placeholder='Write Your Email' />
+                            <input type="email" name="email" id="email" className='contact__form-input' placeholder='Write Your Email' required/>
                         </div>
 
                         <div className="contact__form-div contact__form-area">
                             <label htmlFor="message" className="contact__form-tag">Message</label>
 
-                            <textarea name="message" cols="30" rows="5" id="message" className='contact__form-input' placeholder='Write Your Message' />
+                            <textarea name="message" cols="30" rows="5" id="message" className='contact__form-input' placeholder='Write Your Message' required/>
                         </div>
 
                         <button className="button button--flex">
