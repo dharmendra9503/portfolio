@@ -8,7 +8,7 @@ const Data = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Web Developer", "Coder"], // Strings to display
+      strings: [" ", "Web Developer", "Coder"], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       typeSpeed: 100,
       backSpeed: 100,
