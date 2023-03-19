@@ -1,7 +1,7 @@
 import React from 'react';
-import './CP_Profile.css';
+import './CodingProfile.css';
 
-const CP_Profile = () => {
+const CodingProfile = () => {
   return (
     <div className="cp_profile cp_profile__section">
       <h2 className="section__title">Coding Profile</h2>
@@ -11,4 +11,4 @@ const CP_Profile = () => {
   )
 }
 
-export default CP_Profile;
+export default CodingProfile;

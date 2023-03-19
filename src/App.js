@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
-import CP_Profile from './components/CP-profile/CP_Profile';
+import CodingProfile from './components/codingProfile/CodingProfile';
 import Education from './components/education/Education';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
@@ -20,7 +20,7 @@ function App() {
         <Home />
         <About />
         <Education />
-        <CP_Profile />
+        <CodingProfile />
         <Skills />
         <Projects />
         <Contact />

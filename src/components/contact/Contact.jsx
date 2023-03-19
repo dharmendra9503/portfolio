@@ -42,7 +42,7 @@ const Contact = () => {
                             <h3 className="contact__card-title">Whatsapp</h3>
                             <span className="contact__card-data">999-888-777</span>
 
-                            <a href="https://api.whatsapp.com/send?phone=9173899643&text=Hello" className="contact__button" target="_blank">
+                            <a href="https://api.whatsapp.com/send?phone=9173899643&text=Hello" className="contact__button" target="_blank" rel="noreferrer">
                                 Write me{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
@@ -54,7 +54,7 @@ const Contact = () => {
                             <h3 className="contact__card-title">Linked In</h3>
                             <span className="contact__card-data">dharmendra9503</span>
 
-                            <a href="https://www.linkedin.com/in/dharmendra9503" target="_blank" className="contact__button">
+                            <a href="https://www.linkedin.com/in/dharmendra9503" target="_blank" className="contact__button" rel="noreferrer">
                                 Write me{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
