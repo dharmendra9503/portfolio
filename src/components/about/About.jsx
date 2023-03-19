@@ -16,7 +16,7 @@ const About = () => {
                     <div className="about__data">
 
                         <p className="about__description">
-                            Lorem ipsum dolor sit amet dax vijay adipisicing elit. Perferendis atque aperiam adipisci odit rerum similique nobis sit nesciunt quasi officia?
+                            I’m Dharmendra Prajapati, a pre-final year student, pursuing B.Tech in Information Technology from Chandubhai S Patel Institute of Technology, Anand. My area of Interest are Data Structure and Algorithm, Software Development in Java, Frontend Development in React and Competitive Programming. I have brief knowledge about Spring Boot, MySQL but I don’t want to bound my knowledge and I want to keep refresh my knowledge.
                         </p>
 
                         <a download="" href={Resume} className="button button--flex">
