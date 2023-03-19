@@ -1,4 +1,4 @@
-# 🌴 My Personal Website - https://dharmendra9503.github.io
+# 🌴 My Personal Website - https://dharmendra9503.netlify.app
 
 
 # Getting Started with Create React App
