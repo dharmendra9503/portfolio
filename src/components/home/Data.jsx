@@ -32,7 +32,7 @@ const Data = () => {
         <span> I'm a <h4 style={{ display: "inline", textDecoration:"underline" }} ref={el}> </h4></span>
       </h3>
 
-      <p className="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias hic, quisquam recusandae veniam quaerat ut saepe totam nesciunt tenetur error, doloribus architecto? Quod iusto laudantium, aliquid laboriosam pariatur accusamus accusantium rem amet libero blanditiis maiores impedit, itaque earum temporibus aspernatur?</p>
+      <p className="home__description">Mehsana, Gujarat</p>
 
       <a href="#contact" className="home__contact button button--flex">
         Say Hello
