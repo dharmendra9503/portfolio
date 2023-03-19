@@ -1,4 +1,4 @@
-.about__section{
+.about__section {
     padding: calc(var(--header-height) + 2.7rem) 0 0;
 }
 
@@ -9,7 +9,7 @@
     /* padding-top: 1.5rem; */
 }
 
-.section__title{
+.section__title {
     margin-bottom: 2rem;
 }
 
@@ -22,13 +22,15 @@
 .about__description {
     padding: 0 1rem 0 0;
     margin-bottom: var(--mb-2-5);
+    color: black;
+    margin-top: 1rem;
 }
 
 
 
 /*========================= BREAKPOINTS =========================*/
 @media screen and (max-width: 846px) {
-    .about__img{
+    .about__img {
         width: 300px;
     }
 }
@@ -41,18 +43,24 @@
 }
 
 
-@media screen and (max-width:576px){
-    .about__container{
+@media screen and (max-width:576px) {
+    .about__container {
         grid-template-columns: 1fr;
         row-gap: 2.5rem;
     }
 
-    .about__img{
+    .about__img {
         width: 220px;
     }
 
-    .about__data{
+    .about__data {
         text-align: center;
+    }
+
+    .dResume {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .about__description {
@@ -63,5 +71,6 @@
         padding: 2rem 0 2rem;
     }
 }
+
 /* For small devices */
 @media screen and (max-width: 350px) {}
