@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutImg from "../../assets/profile.jpg";
+import AboutImg from "../../assets/imp.jpg";
 import './About.css';
 import Resume from '../../assets/DHARMENDRA PRAJAPATI - Resume.pdf';
 
