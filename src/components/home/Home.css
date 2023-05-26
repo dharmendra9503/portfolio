@@ -73,7 +73,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    box-shadow: 0 0 0 9px rgb(255 255 255 / 30%);
+    /* box-shadow: 0 0 0 9px rgb(255 255 255 / 30%); */
     order: 1;
     justify-self: center;
     width: 300px;
