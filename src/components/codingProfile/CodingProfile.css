@@ -1,3 +1,106 @@
-.cp_profile__section{
+.cp_profile__section {
     padding: calc(var(--header-height) + 2.7rem) 0 0;
+}
+
+.cp_container {
+    display: flex;
+    justify-content: space-between;
+    /* padding-bottom: 3rem; */
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #f4f4f4;
+
+    .card-content {
+        color: rgb(61, 47, 255);
+    }
+}
+
+.profile-picture {
+    width: 100%;
+    height: 170px;
+}
+
+.card-content {
+    text-align: center;
+    color: rgb(97, 96, 96);
+}
+
+
+@media screen and (max-width:970px) {
+    .card {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .card {
+        width: 260px;
+    }
+}
+
+@media screen and (max-width:838px) {
+    .card {
+        width: 240px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:775px) {
+    .card {
+        width: 220px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .profile-picture {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:719px) {
+    .card {
+        width: 190px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .profile-picture {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .cp_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 330px;
+        padding: 20px;
+    }
+
+    #card-2, #card-3 {
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .card {
+        width: 250px;
+        padding: 20px;
+    }
 }
